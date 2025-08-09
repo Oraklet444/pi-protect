@@ -1,32 +1,51 @@
-#pi-protect
+Pi-Protect
 
-Secure self-hosted DNS and VPN node using Pi-hole and WireGuard on a Raspberry Pi.
+Secure, self-hosted DNS and VPN gateway using Pi-hole and WireGuard on a Raspberry Pi.
+Overview
 
-## Features
-- Local DNS filtering with Pi-hole
-- Encrypted remote access using WireGuard VPN
-- Full control over your DNS and outbound traffic
-- Lightweight and runs on a Raspberry Pi
+Pi-Protect is a lightweight, privacy-focused network appliance that combines Pi-hole for DNS filtering with WireGuard for encrypted remote access. It allows you to securely tunnel all your traffic through your own DNS resolver — anywhere in the world.
+Features
 
-## Goal
-Learn practical network and security concepts by building a secure, self-hosted DNS+VPN gateway.  
-This project is part of my networking and cybersecurity portfolio.
+    Ad & tracker blocking with Pi-hole
 
-## Project Status
-🟢 In progress — under active development
+    Encrypted VPN using WireGuard
 
-## License
-MIT — see [LICENSE](./LICENSE) for details. pi-protect
+    Full control over DNS and outbound traffic
 
-Secure self-hosted DNS and VPN node using Pi-hole and WireGuard on a Raspberry Pi.
+    Low resource usage — runs on Raspberry Pi
 
-## Features
-- Pi-hole for local DNS filtering
-- WireGuard for encrypted VPN access
-- Fully documented setup and troubleshooting
+    Fully documented setup and troubleshooting
 
-## Goal
-Learn practical network security by building a private DNS+VPN gateway.
+Project Goals
 
-## Status
-🟢 In progress — under active development
+    Learn practical networking & security concepts
+
+    Improve privacy and control over internet traffic
+
+    Build a portfolio-ready cybersecurity project
+
+Architecture
+
+[ Client Device ]
+       |
+    WireGuard
+       |
+  [ Raspberry Pi ]
+  Pi-hole DNS filter
+       |
+     Internet
+
+Documentation
+
+    Setup Guide – step-by-step installation & configuration
+
+    Troubleshooting – common issues and resolutions
+
+    Security Notes – hardening recommendations
+
+Status
+
+🟢 In Progress – actively developed and tested
+License
+
+MIT License — see LICENSE for details.
